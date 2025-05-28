@@ -1,0 +1,275 @@
+.image-logo {
+  width: 80px;
+}
+.button-1 {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(233, 240, 145);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.navbar-toggler {
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-left: 1rem;
+  background-color: rgb(1, 70, 60);
+  padding: 0.25rem 0.5rem;
+  color: white;
+}
+.first-col {
+  background-image: url(https://shazzy.app/assets/images/image%2014.png);
+  background-size: 300px;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-color: rgb(1, 46, 39);
+  border-radius: 2rem;
+}
+.button-2 {
+  text-decoration: none;
+  color: rgb(2, 77, 80);
+  background-color: white;
+  width: 200px;
+  padding: 10px 0 0 15px;
+  border-radius: 10px;
+}
+.available {
+  font-size: 12px;
+}
+.playstore {
+  font-size: 16px;
+}
+.swag {
+  color: rgb(199, 199, 4);
+}
+
+.phone-bg {
+  background-color: rgb(199, 199, 4);
+  border-radius: 2rem;
+  width: 85%;
+  height: 380px;
+  overflow: hidden;
+}
+.phone-bg h1{
+  color: black;
+}
+.button-3 {
+  text-decoration: none;
+  color: rgb(2, 77, 80);
+  background-color: rgba(255, 255, 255, 0.459);
+  width: 200px;
+  padding: 8px 0 0 10px;
+  border-radius: 10px;
+}
+.image-phone {
+  width: 100%;
+  overflow: hidden;
+  height: 230px;
+  margin-top: 5px;
+}
+.z-col {
+  width: 85%;
+}
+.z-col h5 {
+  font-size: 12px;
+}
+.z-col p {
+  font-size: 9px;
+}
+.cool {
+  color: rgb(212, 212, 106);
+}
+.wallet-t {
+  font-size: 12px;
+}
+
+.naira-icon {
+  background-color: yellowgreen;
+  width: 10px;
+  height: 10px;
+  font-size: 9px;
+}
+.cold p {
+  font-size: 9px;
+}
+.cold h5 {
+  font-size: 18px;
+  color: rgb(1, 46, 39);
+}
+.naira {
+  font-size: 12px;
+}
+.btc-icon {
+  background-color: rgb(233, 140, 1);
+  width: 10px;
+  height: 10px;
+  font-size: 9px;
+}
+.buy h6 {
+  font-size: 16px;
+}
+.buy h5 {
+  font-size: 20px;
+  color: rgb(167, 177, 38);
+}
+.buy p {
+  font-size: 11px;
+}
+.note ul li {
+  font-size: 14px;
+}
+.note ul li::marker {
+  color: yellowgreen;
+}
+.note p {
+  font-size: 11px;
+}
+.bg {
+  background-color: rgba(216, 213, 213, 0.363);
+}
+.cm {
+  font-size: 11px;
+}
+.get h1 {
+  color: rgb(1, 46, 39);
+  font-size: 50px;
+}
+.get p {
+  font-size: 13px;
+}
+.gsws ul li {
+  list-style: none;
+  line-height: 3;
+}
+.tdc {
+  color: yellowgreen;
+}
+.accordion-body {
+  font-size: 13px;
+}
+.accordion-button {
+  font-size: 14px;
+}
+.row-5 {
+  width: 75%;
+}
+
+.row-6 {
+  background-color: rgb(199, 199, 4);
+  height: 350px;
+  overflow: hidden;
+}
+.phone-img {
+  margin-top: -3rem;
+}
+.gtt {
+  color: black;
+}
+.button-6 {
+  text-decoration: none;
+  color: rgb(2, 77, 80);
+  background-color: rgba(255, 255, 255, 0.486);
+  width: 200px;
+  padding: 10px 0 0 15px;
+  border-radius: 10px;
+}
+
+.ptd li{
+  list-style: none;
+
+}
+.ptd li a{
+  color: rgba(5, 10, 5, 0.692);
+  font-weight: bold;
+  font-size: 14px;
+}
+.col-7{
+  font-size: 13px;
+}
+
+@media (max-width: 844px) {
+  .first-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .c-text {
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 30px;
+  }
+  .c-text-2 {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+
+  .phone-bg {
+    background-color: rgb(199, 199, 4);
+    border-radius: 2rem;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  .z-col {
+    width: 100%;
+  }
+
+  .image-phone {
+    width: 100%;
+    overflow: hidden;
+    height: 180px;
+    margin-top: 3rem;
+  }
+  .button-3 {
+    text-decoration: none;
+    color: rgb(2, 77, 80);
+    background-color: rgba(255, 255, 255, 0.459);
+    width: 200px;
+    padding: 8px 0 0 10px;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  .row-5 {
+    width: 100%;
+    text-align: center;
+  }
+  .row-6 {
+    background-color: rgb(199, 199, 4);
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .phone-img {
+    /* width: 250px;
+    height: 200px; */
+    margin-top: 2rem;
+  }
+  .gtt{
+    margin-top: 2rem;
+  }
+  .col-7{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+  .ptd{
+    text-align: center;
+    line-height: 3;
+    margin-left: -2rem;
+  }
+  .get h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 40px;
+    line-height: 1;
+  }
+  .gsws{
+    margin-left: -1rem;
+  }
+}
